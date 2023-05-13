@@ -1,0 +1,472 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'rust-training'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "rust-training",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rust-training'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rust-training",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "rust-training",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rust-training'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rust-training",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "rust-training",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'envvars'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=envvars",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "envvars",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'envvars'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=envvars",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "envvars",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rustyline'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rustyline",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "rustyline",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rustyline'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rustyline",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "rustyline",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'minigrep'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=minigrep",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "minigrep",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'minigrep'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=minigrep",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "minigrep",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'kvstore'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=kvstore",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "kvstore",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'kvstore'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=kvstore",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "kvstore",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'own_iterator'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=own_iterator",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "own_iterator",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'own_iterator'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=own_iterator",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "own_iterator",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'reedline'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=reedline",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "reedline",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'reedline'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=reedline",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "reedline",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'trait_objects'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=trait_objects",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "trait_objects",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'trait_objects'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=trait_objects",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "trait_objects",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'weak_ref'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=weak_ref",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "weak_ref",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'weak_ref'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=weak_ref",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "weak_ref",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'rc_refcell'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=rc_refcell",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "rc_refcell",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'rc_refcell'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=rc_refcell",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "rc_refcell",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'oo_state_pattern'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=oo_state_pattern",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "oo_state_pattern",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'oo_state_pattern'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=oo_state_pattern",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "oo_state_pattern",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'lifetimes'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=lifetimes",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "lifetimes",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'half_adder'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=half_adder",
+                    "--package=rust-training"
+                ],
+                "filter": {
+                    "name": "half_adder",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

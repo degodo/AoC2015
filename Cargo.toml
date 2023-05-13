@@ -1,0 +1,9 @@
+[package]
+name = "AoC2015"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+digest = "~0.10.0"
+md-5 = "~0.10.0"
+
