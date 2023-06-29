@@ -2,6 +2,7 @@
 name = "AoC2015"
 version = "0.1.0"
 edition = "2021"
+description = "Solving the Advent of Code 2015"
 
 [dependencies]
 digest = "~0.10.0"
